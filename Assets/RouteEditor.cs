@@ -1,9 +1,10 @@
+#if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(Route))]
+[UnityEditor.CustomEditor(typeof(Route))]
 public class RouteEditor : Editor
 {
     public override void OnInspectorGUI() {
@@ -15,3 +16,4 @@ public class RouteEditor : Editor
         }
     }
 }
+#endif
