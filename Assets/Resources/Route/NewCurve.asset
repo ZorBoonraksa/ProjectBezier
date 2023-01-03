@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b986acb5b8133147bdc042238434779, type: 3}
+  m_Name: NewCurve
+  m_EditorClassIdentifier: 
+  routePath:
+  - time: 0
+    position: {x: -8.75, y: -4.2599998, z: 0}
+  - time: 0.02
+    position: {x: -8.750463, y: -4.1666765, z: 0}
+  - time: 0.04
+    position: {x: -8.748855, y: -4.075111, z: 0}
+  - time: 0.06
+    position: {x: -8.745174, y: -3.9853077, z: 0}
+  - time: 0.08
+    position: {x: -8.739431, y: -3.8972723, z: 0}
+  - time: 0.099999994
+    position: {x: -8.731626, y: -3.8110108, z: 0}
+  - time: 0.12
+    position: {x: -8.721764, y: -3.7265282, z: 0}
+  - time: 0.14
+    position: {x: -8.709847, y: -3.643829, z: 0}
+  - time: 0.16
+    position: {x: -8.695881, y: -3.5629194, z: 0}
+  - time: 0.17999999
+    position: {x: -8.679867, y: -3.4838045, z: 0}
+  - time: 0.19999999
+    position: {x: -8.661809, y: -3.4064896, z: 0}
+  - time: 0.22
+    position: {x: -8.641714, y: -3.3309803, z: 0}
+  - time: 0.24
+    position: {x: -8.619583, y: -3.2572818, z: 0}
+  - time: 0.26
+    position: {x: -8.595418, y: -3.185399, z: 0}
+  - time: 0.28
+    position: {x: -8.569225, y: -3.115338, z: 0}
+  - time: 0.29999998
+    position: {x: -8.541009, y: -3.0471036, z: 0}
+  - time: 0.32
+    position: {x: -8.510772, y: -2.9807017, z: 0}
+  - time: 0.34
+    position: {x: -8.478515, y: -2.9161363, z: 0}
+  - time: 0.35999998
+    position: {x: -8.444245, y: -2.8534145, z: 0}
+  - time: 0.38
+    position: {x: -8.407967, y: -2.7925406, z: 0}
+  - time: 0.39999998
+    position: {x: -8.36968, y: -2.7335198, z: 0}
+  - time: 0.42
+    position: {x: -8.329392, y: -2.676358, z: 0}
+  - time: 0.44
+    position: {x: -8.287102, y: -2.6210604, z: 0}
+  - time: 0.45999998
+    position: {x: -8.24282, y: -2.5676324, z: 0}
+  - time: 0.48
+    position: {x: -8.196545, y: -2.5160792, z: 0}
+  - time: 0.5
+    position: {x: -8.148281, y: -2.4664063, z: 0}
+  - time: 0.52
+    position: {x: -8.098034, y: -2.4186187, z: 0}
+  - time: 0.53999996
+    position: {x: -8.045806, y: -2.372722, z: 0}
+  - time: 0.56
+    position: {x: -7.991599, y: -2.3287213, z: 0}
+  - time: 0.58
+    position: {x: -7.93542, y: -2.2866223, z: 0}
+  - time: 0.59999996
+    position: {x: -7.87727, y: -2.24643, z: 0}
+  - time: 0.62
+    position: {x: -7.817155, y: -2.20815, z: 0}
+  - time: 0.64
+    position: {x: -7.755077, y: -2.1717875, z: 0}
+  - time: 0.65999997
+    position: {x: -7.691039, y: -2.1373477, z: 0}
+  - time: 0.68
+    position: {x: -7.625047, y: -2.1048365, z: 0}
+  - time: 0.7
+    position: {x: -7.557103, y: -2.0742586, z: 0}
+  - time: 0.71999997
+    position: {x: -7.487212, y: -2.0456197, z: 0}
+  - time: 0.74
+    position: {x: -7.4153767, y: -2.0189252, z: 0}
+  - time: 0.76
+    position: {x: -7.3416004, y: -1.9941802, z: 0}
+  - time: 0.78
+    position: {x: -7.265887, y: -1.9713899, z: 0}
+  - time: 0.79999995
+    position: {x: -7.1882405, y: -1.9505601, z: 0}
+  - time: 0.82
+    position: {x: -7.1086645, y: -1.9316958, z: 0}
+  - time: 0.84
+    position: {x: -7.027163, y: -1.9148026, z: 0}
+  - time: 0.85999995
+    position: {x: -6.9437375, y: -1.8998852, z: 0}
+  - time: 0.88
+    position: {x: -6.8583946, y: -1.8869498, z: 0}
+  - time: 0.9
+    position: {x: -6.7711363, y: -1.8760011, z: 0}
+  - time: 0.91999996
+    position: {x: -6.6819663, y: -1.8670448, z: 0}
+  - time: 0.94
+    position: {x: -6.5908895, y: -1.8600864, z: 0}
+  - time: 0.96
+    position: {x: -6.4979086, y: -1.8551307, z: 0}
+  - time: 0.97999996
+    position: {x: -6.403028, y: -1.8521836, z: 0}
+  - time: 1
+    position: {x: -6.3062506, y: -1.8512499, z: 0}
+  - time: 1.02
+    position: {x: -6.207579, y: -1.8523352, z: 0}
+  - time: 1.04
+    position: {x: -6.1070194, y: -1.8554451, z: 0}
+  - time: 1.06
+    position: {x: -6.004574, y: -1.8605845, z: 0}
+  - time: 1.0799999
+    position: {x: -5.900244, y: -1.8677589, z: 0}
+  - time: 1.1
+    position: {x: -5.794039, y: -1.8769736, z: 0}
+  - time: 1.12
+    position: {x: -5.6859584, y: -1.8882341, z: 0}
+  - time: 1.14
+    position: {x: -5.576006, y: -1.9015458, z: 0}
+  - time: 1.16
+    position: {x: -5.4641867, y: -1.9169137, z: 0}
+  - time: 1.18
+    position: {x: -5.350504, y: -1.9343432, z: 0}
+  - time: 1.1999999
+    position: {x: -5.23496, y: -1.95384, z: 0}
+  - time: 1.22
+    position: {x: -5.11756, y: -1.975409, z: 0}
+  - time: 1.24
+    position: {x: -4.9983087, y: -1.9990559, z: 0}
+  - time: 1.26
+    position: {x: -4.877207, y: -2.0247858, z: 0}
+  - time: 1.28
+    position: {x: -4.7542605, y: -2.0526042, z: 0}
+  - time: 1.3
+    position: {x: -4.6294723, y: -2.0825162, z: 0}
+  - time: 1.3199999
+    position: {x: -4.5028443, y: -2.1145275, z: 0}
+  - time: 1.3399999
+    position: {x: -4.374383, y: -2.148643, z: 0}
+  - time: 1.36
+    position: {x: -4.244092, y: -2.1848683, z: 0}
+  - time: 1.38
+    position: {x: -4.111973, y: -2.223209, z: 0}
+  - time: 1.4
+    position: {x: -3.9780302, y: -2.26367, z: 0}
+  - time: 1.42
+    position: {x: -3.8422682, y: -2.3062568, z: 0}
+  - time: 1.4399999
+    position: {x: -3.704689, y: -2.3509748, z: 0}
+  - time: 1.4599999
+    position: {x: -3.5652983, y: -2.397829, z: 0}
+  - time: 1.48
+    position: {x: -3.424099, y: -2.4468255, z: 0}
+  - time: 1.5
+    position: {x: -3.281094, y: -2.4979687, z: 0}
+  - time: 1.52
+    position: {x: -3.1362875, y: -2.5512645, z: 0}
+  - time: 1.54
+    position: {x: -2.9896834, y: -2.606718, z: 0}
+  - time: 1.56
+    position: {x: -2.8412852, y: -2.6643348, z: 0}
+  - time: 1.5799999
+    position: {x: -2.6910958, y: -2.7241206, z: 0}
+  - time: 1.5999999
+    position: {x: -2.53912, y: -2.7860801, z: 0}
+  - time: 1.62
+    position: {x: -2.3853612, y: -2.8502185, z: 0}
+  - time: 1.64
+    position: {x: -2.2298226, y: -2.9165413, z: 0}
+  - time: 1.66
+    position: {x: -2.0725086, y: -2.985054, z: 0}
+  - time: 1.68
+    position: {x: -1.9134221, y: -3.0557623, z: 0}
+  - time: 1.6999999
+    position: {x: -1.752566, y: -3.1286714, z: 0}
+  - time: 1.7199999
+    position: {x: -1.5899463, y: -3.2037857, z: 0}
+  - time: 1.74
+    position: {x: -1.425565, y: -3.2811117, z: 0}
+  - time: 1.76
+    position: {x: -1.2594261, y: -3.360654, z: 0}
+  - time: 1.78
+    position: {x: -1.0915334, y: -3.4424183, z: 0}
+  - time: 1.8
+    position: {x: -0.92189056, y: -3.5264094, z: 0}
+  - time: 1.8199999
+    position: {x: -0.75049996, y: -3.6126342, z: 0}
+  - time: 1.8399999
+    position: {x: -0.5773677, y: -3.7010963, z: 0}
+  - time: 1.86
+    position: {x: -0.40249586, y: -3.7918015, z: 0}
+  - time: 1.88
+    position: {x: -0.22588843, y: -3.8847556, z: 0}
+  - time: 1.9
+    position: {x: -0.04754907, y: -3.9799635, z: 0}
+  - time: 1.92
+    position: {x: 0.13251853, y: -4.0774307, z: 0}
+  - time: 1.9399999
+    position: {x: 0.3143119, y: -4.177163, z: 0}
+  - time: 1.9599999
+    position: {x: 0.49782512, y: -4.279165, z: 0}
+  - time: 1.9799999
+    position: {x: 0.68305564, y: -4.383442, z: 0}

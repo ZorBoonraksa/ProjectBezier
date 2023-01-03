@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b986acb5b8133147bdc042238434779, type: 3}
+  m_Name: DTU
+  m_EditorClassIdentifier: 
+  routePath:
+  - time: 0
+    position: {x: -8.389999, y: -4.5126743, z: 0}
+  - time: 0.033333335
+    position: {x: -8.389999, y: -4.505505, z: 0}
+  - time: 0.06666667
+    position: {x: -8.389999, y: -4.4843183, z: 0}
+  - time: 0.10000001
+    position: {x: -8.39, y: -4.4495993, z: 0}
+  - time: 0.13333334
+    position: {x: -8.39, y: -4.40183, z: 0}
+  - time: 0.16666667
+    position: {x: -8.389999, y: -4.341494, z: 0}
+  - time: 0.20000002
+    position: {x: -8.389999, y: -4.2690744, z: 0}
+  - time: 0.23333335
+    position: {x: -8.389998, y: -4.185055, z: 0}
+  - time: 0.26666668
+    position: {x: -8.389999, y: -4.089919, z: 0}
+  - time: 0.3
+    position: {x: -8.390001, y: -3.9841502, z: 0}
+  - time: 0.33333334
+    position: {x: -8.389998, y: -3.8682296, z: 0}
+  - time: 0.36666667
+    position: {x: -8.389999, y: -3.7426438, z: 0}
+  - time: 0.40000004
+    position: {x: -8.389999, y: -3.6078746, z: 0}
+  - time: 0.43333337
+    position: {x: -8.389999, y: -3.4644043, z: 0}
+  - time: 0.4666667
+    position: {x: -8.389998, y: -3.3127186, z: 0}
+  - time: 0.5
+    position: {x: -8.389999, y: -3.1532993, z: 0}
+  - time: 0.53333336
+    position: {x: -8.39, y: -2.98663, z: 0}
+  - time: 0.5666667
+    position: {x: -8.39, y: -2.8131938, z: 0}
+  - time: 0.6
+    position: {x: -8.389999, y: -2.6334743, z: 0}
+  - time: 0.6333334
+    position: {x: -8.389999, y: -2.447955, z: 0}
+  - time: 0.6666667
+    position: {x: -8.389998, y: -2.2571187, z: 0}
+  - time: 0.70000005
+    position: {x: -8.389998, y: -2.061449, z: 0}
+  - time: 0.73333335
+    position: {x: -8.389999, y: -1.8614299, z: 0}
+  - time: 0.7666667
+    position: {x: -8.389999, y: -1.6575437, z: 0}
+  - time: 0.8000001
+    position: {x: -8.389999, y: -1.4502746, z: 0}
+  - time: 0.8333334
+    position: {x: -8.39, y: -1.2401054, z: 0}
+  - time: 0.86666673
+    position: {x: -8.389999, y: -1.0275186, z: 0}
+  - time: 0.90000004
+    position: {x: -8.389999, y: -0.8129996, z: 0}
+  - time: 0.9333334
+    position: {x: -8.389998, y: -0.5970297, z: 0}
+  - time: 0.9666667
+    position: {x: -8.389998, y: -0.3800937, z: 0}
+  - time: 1
+    position: {x: -8.389999, y: -0.16267443, z: 0}
+  - time: 1.0333334
+    position: {x: -8.389999, y: 0.05474472, z: 0}
+  - time: 1.0666667
+    position: {x: -8.389999, y: 0.27168137, z: 0}
+  - time: 1.1
+    position: {x: -8.389999, y: 0.48765057, z: 0}
+  - time: 1.1333334
+    position: {x: -8.389999, y: 0.7021698, z: 0}
+  - time: 1.1666667
+    position: {x: -8.389999, y: 0.9147558, z: 0}
+  - time: 1.2
+    position: {x: -8.389998, y: 1.1249256, z: 0}
+  - time: 1.2333333
+    position: {x: -8.389999, y: 1.332195, z: 0}
+  - time: 1.2666668
+    position: {x: -8.389999, y: 1.5360812, z: 0}
+  - time: 1.3000001
+    position: {x: -8.389999, y: 1.7361001, z: 0}
+  - time: 1.3333334
+    position: {x: -8.389999, y: 1.9317702, z: 0}
+  - time: 1.3666668
+    position: {x: -8.389999, y: 2.1226063, z: 0}
+  - time: 1.4000001
+    position: {x: -8.389999, y: 2.3081253, z: 0}
+  - time: 1.4333334
+    position: {x: -8.389999, y: 2.4878445, z: 0}
+  - time: 1.4666667
+    position: {x: -8.389999, y: 2.661281, z: 0}
+  - time: 1.5000001
+    position: {x: -8.389999, y: 2.8279505, z: 0}
+  - time: 1.5333334
+    position: {x: -8.389999, y: 2.9873695, z: 0}
+  - time: 1.5666667
+    position: {x: -8.389999, y: 3.1390562, z: 0}
+  - time: 1.6000001
+    position: {x: -8.389999, y: 3.2825255, z: 0}
+  - time: 1.6333334
+    position: {x: -8.389999, y: 3.417295, z: 0}
+  - time: 1.6666667
+    position: {x: -8.389999, y: 3.5428805, z: 0}
+  - time: 1.7
+    position: {x: -8.389999, y: 3.6588006, z: 0}
+  - time: 1.7333335
+    position: {x: -8.389999, y: 3.7645702, z: 0}
+  - time: 1.7666668
+    position: {x: -8.389999, y: 3.859706, z: 0}
+  - time: 1.8000001
+    position: {x: -8.389999, y: 3.943725, z: 0}
+  - time: 1.8333334
+    position: {x: -8.389999, y: 4.0161448, z: 0}
+  - time: 1.8666668
+    position: {x: -8.389999, y: 4.076481, z: 0}
+  - time: 1.9000001
+    position: {x: -8.389999, y: 4.1242504, z: 0}
+  - time: 1.9333334
+    position: {x: -8.389999, y: 4.15897, z: 0}
+  - time: 1.9666668
+    position: {x: -8.389999, y: 4.1801558, z: 0}

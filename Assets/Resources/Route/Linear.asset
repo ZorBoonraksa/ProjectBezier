@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b986acb5b8133147bdc042238434779, type: 3}
+  m_Name: Linear
+  m_EditorClassIdentifier: 
+  routePath:
+  - time: 0
+    position: {x: -8.309999, y: 2.48, z: 0}
+  - time: 0.02
+    position: {x: -8.305019, y: 2.4799998, z: 0}
+  - time: 0.04
+    position: {x: -8.2902155, y: 2.4800003, z: 0}
+  - time: 0.06
+    position: {x: -8.265785, y: 2.4800003, z: 0}
+  - time: 0.08
+    position: {x: -8.23193, y: 2.48, z: 0}
+  - time: 0.099999994
+    position: {x: -8.188852, y: 2.4799998, z: 0}
+  - time: 0.12
+    position: {x: -8.13675, y: 2.48, z: 0}
+  - time: 0.14
+    position: {x: -8.075825, y: 2.48, z: 0}
+  - time: 0.16
+    position: {x: -8.006279, y: 2.4800003, z: 0}
+  - time: 0.17999999
+    position: {x: -7.9283094, y: 2.4799998, z: 0}
+  - time: 0.19999999
+    position: {x: -7.842119, y: 2.4799998, z: 0}
+  - time: 0.22
+    position: {x: -7.7479086, y: 2.4799998, z: 0}
+  - time: 0.24
+    position: {x: -7.645877, y: 2.48, z: 0}
+  - time: 0.26
+    position: {x: -7.536226, y: 2.4799998, z: 0}
+  - time: 0.28
+    position: {x: -7.4191556, y: 2.48, z: 0}
+  - time: 0.29999998
+    position: {x: -7.2948685, y: 2.4800003, z: 0}
+  - time: 0.32
+    position: {x: -7.163561, y: 2.4800005, z: 0}
+  - time: 0.34
+    position: {x: -7.025434, y: 2.4799998, z: 0}
+  - time: 0.35999998
+    position: {x: -6.880693, y: 2.48, z: 0}
+  - time: 0.38
+    position: {x: -6.729534, y: 2.48, z: 0}
+  - time: 0.39999998
+    position: {x: -6.5721593, y: 2.4800003, z: 0}
+  - time: 0.42
+    position: {x: -6.4087696, y: 2.4800003, z: 0}
+  - time: 0.44
+    position: {x: -6.239563, y: 2.4799998, z: 0}
+  - time: 0.45999998
+    position: {x: -6.064743, y: 2.4800003, z: 0}
+  - time: 0.48
+    position: {x: -5.8845096, y: 2.48, z: 0}
+  - time: 0.5
+    position: {x: -5.699062, y: 2.4799998, z: 0}
+  - time: 0.52
+    position: {x: -5.508602, y: 2.4800003, z: 0}
+  - time: 0.53999996
+    position: {x: -5.3133287, y: 2.4800003, z: 0}
+  - time: 0.56
+    position: {x: -5.113444, y: 2.4800003, z: 0}
+  - time: 0.58
+    position: {x: -4.909148, y: 2.4800003, z: 0}
+  - time: 0.59999996
+    position: {x: -4.7006392, y: 2.48, z: 0}
+  - time: 0.62
+    position: {x: -4.4881215, y: 2.48, z: 0}
+  - time: 0.64
+    position: {x: -4.2717943, y: 2.48, z: 0}
+  - time: 0.65999997
+    position: {x: -4.0518565, y: 2.4799998, z: 0}
+  - time: 0.68
+    position: {x: -3.8285105, y: 2.4799998, z: 0}
+  - time: 0.7
+    position: {x: -3.6019564, y: 2.4799995, z: 0}
+  - time: 0.71999997
+    position: {x: -3.3723946, y: 2.48, z: 0}
+  - time: 0.74
+    position: {x: -3.1400256, y: 2.48, z: 0}
+  - time: 0.76
+    position: {x: -2.9050496, y: 2.48, z: 0}
+  - time: 0.78
+    position: {x: -2.6676676, y: 2.48, z: 0}
+  - time: 0.79999995
+    position: {x: -2.4280796, y: 2.48, z: 0}
+  - time: 0.82
+    position: {x: -2.1864867, y: 2.4800003, z: 0}
+  - time: 0.84
+    position: {x: -1.9430892, y: 2.4800003, z: 0}
+  - time: 0.85999995
+    position: {x: -1.6980865, y: 2.48, z: 0}
+  - time: 0.88
+    position: {x: -1.4516807, y: 2.48, z: 0}
+  - time: 0.9
+    position: {x: -1.204072, y: 2.48, z: 0}
+  - time: 0.91999996
+    position: {x: -0.95546, y: 2.4799998, z: 0}
+  - time: 0.94
+    position: {x: -0.7060466, y: 2.48, z: 0}
+  - time: 0.96
+    position: {x: -0.45603174, y: 2.48, z: 0}
+  - time: 0.97999996
+    position: {x: -0.20561576, y: 2.48, z: 0}
+  - time: 1
+    position: {x: 0.045000434, y: 2.48, z: 0}
+  - time: 1.02
+    position: {x: 0.29561687, y: 2.48, z: 0}
+  - time: 1.04
+    position: {x: 0.5460328, y: 2.48, z: 0}
+  - time: 1.06
+    position: {x: 0.79604745, y: 2.4800003, z: 0}
+  - time: 1.0799999
+    position: {x: 1.0454623, y: 2.48, z: 0}
+  - time: 1.1
+    position: {x: 1.2940735, y: 2.48, z: 0}
+  - time: 1.12
+    position: {x: 1.5416815, y: 2.48, z: 0}
+  - time: 1.14
+    position: {x: 1.7880871, y: 2.48, z: 0}
+  - time: 1.16
+    position: {x: 2.0330892, y: 2.48, z: 0}
+  - time: 1.18
+    position: {x: 2.2764869, y: 2.48, z: 0}
+  - time: 1.1999999
+    position: {x: 2.5180807, y: 2.48, z: 0}
+  - time: 1.22
+    position: {x: 2.757669, y: 2.48, z: 0}
+  - time: 1.24
+    position: {x: 2.995051, y: 2.48, z: 0}
+  - time: 1.26
+    position: {x: 3.2300267, y: 2.48, z: 0}
+  - time: 1.28
+    position: {x: 3.4623957, y: 2.48, z: 0}
+  - time: 1.3
+    position: {x: 3.6919572, y: 2.48, z: 0}
+  - time: 1.3199999
+    position: {x: 3.9185128, y: 2.48, z: 0}
+  - time: 1.3399999
+    position: {x: 4.141858, y: 2.48, z: 0}
+  - time: 1.36
+    position: {x: 4.361795, y: 2.48, z: 0}
+  - time: 1.38
+    position: {x: 4.5781226, y: 2.48, z: 0}
+  - time: 1.4
+    position: {x: 4.79064, y: 2.48, z: 0}
+  - time: 1.42
+    position: {x: 4.9991474, y: 2.48, z: 0}
+  - time: 1.4399999
+    position: {x: 5.2034445, y: 2.48, z: 0}
+  - time: 1.4599999
+    position: {x: 5.40333, y: 2.48, z: 0}
+  - time: 1.48
+    position: {x: 5.598603, y: 2.48, z: 0}
+  - time: 1.5
+    position: {x: 5.7890635, y: 2.48, z: 0}
+  - time: 1.52
+    position: {x: 5.97451, y: 2.48, z: 0}
+  - time: 1.54
+    position: {x: 6.154744, y: 2.48, z: 0}
+  - time: 1.56
+    position: {x: 6.329564, y: 2.48, z: 0}
+  - time: 1.5799999
+    position: {x: 6.4987707, y: 2.48, z: 0}
+  - time: 1.5999999
+    position: {x: 6.662161, y: 2.48, z: 0}
+  - time: 1.62
+    position: {x: 6.8195353, y: 2.48, z: 0}
+  - time: 1.64
+    position: {x: 6.970694, y: 2.48, z: 0}
+  - time: 1.66
+    position: {x: 7.1154356, y: 2.48, z: 0}
+  - time: 1.68
+    position: {x: 7.2535605, y: 2.48, z: 0}
+  - time: 1.6999999
+    position: {x: 7.3848686, y: 2.48, z: 0}
+  - time: 1.7199999
+    position: {x: 7.5091567, y: 2.48, z: 0}
+  - time: 1.74
+    position: {x: 7.6262274, y: 2.48, z: 0}
+  - time: 1.76
+    position: {x: 7.7358785, y: 2.48, z: 0}
+  - time: 1.78
+    position: {x: 7.8379097, y: 2.48, z: 0}
+  - time: 1.8
+    position: {x: 7.9321203, y: 2.4799998, z: 0}
+  - time: 1.8199999
+    position: {x: 8.018311, y: 2.48, z: 0}
+  - time: 1.8399999
+    position: {x: 8.096279, y: 2.48, z: 0}
+  - time: 1.86
+    position: {x: 8.165827, y: 2.48, z: 0}
+  - time: 1.88
+    position: {x: 8.226751, y: 2.48, z: 0}
+  - time: 1.9
+    position: {x: 8.278852, y: 2.48, z: 0}
+  - time: 1.92
+    position: {x: 8.321931, y: 2.48, z: 0}
+  - time: 1.9399999
+    position: {x: 8.355786, y: 2.48, z: 0}
+  - time: 1.9599999
+    position: {x: 8.380216, y: 2.48, z: 0}
+  - time: 1.9799999
+    position: {x: 8.3950205, y: 2.48, z: 0}
