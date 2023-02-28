@@ -6,8 +6,6 @@ public class FollowPath : MonoBehaviour
 {
     public List<RouteData> route;
     private float elapsedTime;
-    public bool isRotate = false;
-    public float rotateSpeed = 1f;
     private int routeIndex;
 
     private void Start() {
@@ -32,9 +30,9 @@ public class FollowPath : MonoBehaviour
             float percentComplete = (elapsedTime - route[routeIndex].routePath[index].time) / (route[routeIndex].routePath[index + 1].time - route[routeIndex].routePath[index].time);
             transform.position = Vector3.Lerp(route[routeIndex].routePath[index].position,route[routeIndex].routePath[index + 1].position,Mathf.SmoothStep(0,1,percentComplete));
         }
-        if(isRotate)
+        if(route[routeIndex]._IsRotate)
         {
-            transform.Rotate(new Vector3(0,0,rotateSpeed) * Time.deltaTime);
+            transform.Rotate(route[routeIndex].rotationAxis * Time.deltaTime);
         }
     }
 }

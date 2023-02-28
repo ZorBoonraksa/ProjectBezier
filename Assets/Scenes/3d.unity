@@ -274,6 +274,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4743913086917509241, guid: 7cf919a44c2a2054ca266ba4177a33c6, type: 3}
+      propertyPath: isRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743913086917509241, guid: 7cf919a44c2a2054ca266ba4177a33c6, type: 3}
+      propertyPath: axisRotate.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743913086917509241, guid: 7cf919a44c2a2054ca266ba4177a33c6, type: 3}
+      propertyPath: axisRotate.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743913086917509241, guid: 7cf919a44c2a2054ca266ba4177a33c6, type: 3}
+      propertyPath: axisRotate.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743913086917509241, guid: 7cf919a44c2a2054ca266ba4177a33c6, type: 3}
       propertyPath: routeFileName
       value: 3DCubic
       objectReference: {fileID: 0}
@@ -331,7 +347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ad18b2e9876e049b6cf0be561e5e25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  route: {fileID: 11400000, guid: 9ab4aea9192fb9341bd5ea5a650e7552, type: 2}
+  route:
+  - {fileID: 11400000, guid: 9ab4aea9192fb9341bd5ea5a650e7552, type: 2}
 --- !u!136 &1527839718
 CapsuleCollider:
   m_ObjectHideFlags: 0

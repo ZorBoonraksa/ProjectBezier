@@ -265,8 +265,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   route:
   - {fileID: 11400000, guid: e821a7eb908cddc4db9bbe5ccafee998, type: 2}
-  isRotate: 1
-  rotateSpeed: 75000
 --- !u!114 &248247194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,8 +355,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   route:
   - {fileID: 11400000, guid: 6f6c0018708883949b2650b6ce309a49, type: 2}
-  isRotate: 1
-  rotateSpeed: 137.5
 --- !u!114 &264089498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,8 +725,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   route:
   - {fileID: 11400000, guid: 8ede17c038e227544a445982c51c88ab, type: 2}
-  isRotate: 1
-  rotateSpeed: 4
 --- !u!114 &769740952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -824,6 +818,8 @@ MonoBehaviour:
   routeFileName: Venus
   frequency: 400
   duration: 17.625
+  isRotation: 1
+  axisRotate: {x: 0, y: 0, z: -75}
 --- !u!1 &881164558
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,6 +917,8 @@ MonoBehaviour:
   routeFileName: Jupiter
   frequency: 700
   duration: 33
+  isRotation: 1
+  axisRotate: {x: 0, y: 0, z: -80}
 --- !u!1 &952279171
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,8 +971,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   route:
   - {fileID: 11400000, guid: daf9cc336fd643941b15b3351fdeaab8, type: 2}
-  isRotate: 1
-  rotateSpeed: -200
 --- !u!114 &952279174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1065,8 +1061,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   route:
   - {fileID: 11400000, guid: f234f1c057dfd494c8d324b475d4dc7b, type: 2}
-  isRotate: 1
-  rotateSpeed: 50000
 --- !u!114 &960070049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1339,6 +1333,8 @@ MonoBehaviour:
   routeFileName: Earth
   frequency: 500
   duration: 19.247
+  isRotation: 1
+  axisRotate: {x: 0, y: 0, z: 75}
 --- !u!1 &1374993847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,6 +1390,8 @@ MonoBehaviour:
   routeFileName: Mars
   frequency: 600
   duration: 26
+  isRotation: 1
+  axisRotate: {x: 0, y: 0, z: 60}
 --- !u!1 &1427080383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,6 +1924,8 @@ MonoBehaviour:
   routeFileName: Saturn
   frequency: 120
   duration: 1
+  isRotation: 1
+  axisRotate: {x: 0, y: 0, z: 250}
 --- !u!1 &2033595311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,8 +2008,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   route:
   - {fileID: 11400000, guid: 9b2e586b09dda4846b197975947f89a7, type: 2}
-  isRotate: 1
-  rotateSpeed: 150
 --- !u!114 &2084668142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2130,6 +2128,8 @@ MonoBehaviour:
   routeFileName: Mercury
   frequency: 200
   duration: 10
+  isRotation: 1
+  axisRotate: {x: 0, y: 0, z: 100}
 --- !u!1 &5398282452625412718
 GameObject:
   m_ObjectHideFlags: 0

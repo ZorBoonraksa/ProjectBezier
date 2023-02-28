@@ -12,6 +12,8 @@ public class Route : MonoBehaviour
     private Vector3 gizmosPosition;
     public int frequency = 100;
     public float duration = 2f;
+    public bool isRotation;
+    public Vector3 axisRotate;
     private Vector3 objectPosition;
 
     public void SetRoute()
@@ -39,6 +41,10 @@ public class Route : MonoBehaviour
                 position = objectPosition
             };
             thisRoute.routePath.Add(newPoint);
+        }
+        if(isRotation){
+            thisRoute._IsRotate = isRotation;
+            thisRoute.rotationAxis = axisRotate;
         }
         if(!AssetDatabase.IsValidFolder("Assets/Resources/Route"))
         {

@@ -12,4 +12,6 @@ public class Path
 public class RouteData : ScriptableObject
 {
     public List<Path> routePath = new List<Path>();
+    public bool _IsRotate;
+    public Vector3 rotationAxis;
 }

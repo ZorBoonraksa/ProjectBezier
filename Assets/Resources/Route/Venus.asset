@@ -813,3 +813,5 @@ MonoBehaviour:
     position: {x: 1045.043, y: -609.78674, z: -481.28183}
   - time: 17.580936
     position: {x: 1038.0394, y: -618.78925, z: -481.2818}
+  _IsRotate: 1
+  rotationAxis: {x: 0, y: 0, z: -75}
